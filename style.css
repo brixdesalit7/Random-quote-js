@@ -2,21 +2,26 @@
 * {
   font-family: 'Poppins', sans-serif;
 }
-
+body {
+  background-position: center;
+  background-size: cover;
+  background-image:linear-gradient(rgba(94, 33, 33, 0.959),#8f8f8fb3),  url(./background.jpg);;
+  background-repeat: no-repeat;
+}
 #wrapper {
   max-width: 700px;
   position: relative;
-  top: 100px;
+  top: 150px;
   margin: 0 auto;
   left: 0;
 }
 
 #quote-box {
-  background-color: #f3f3f3;
   padding: 40px 50px;
   width: 500px;
   margin: 0 auto;
   border-radius: 15px;
+  color: white;
 }
 
 #quote-box #quote-text {
@@ -25,7 +30,7 @@
 }
 
 #quote-box #text {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 #quote-box #quote-icon {
@@ -53,6 +58,8 @@
   padding: 10px 20px;
   border-radius: 5px;
   color: white;
+  background: transparent;
+  border: 1px solid rgb(187, 187, 187);
 }
 
 #quote-box #button-wrapper #tweet-quote {
@@ -61,6 +68,7 @@
 
 #quote-box #button-wrapper #new-quote {
   font-size: 20px;
-  border: none;
+  background: transparent;
+  border: 1px solid rgb(187, 187, 187);
 }
 /*# sourceMappingURL=style.css.map */
